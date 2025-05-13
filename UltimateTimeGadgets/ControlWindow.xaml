@@ -1,0 +1,90 @@
+﻿<Window x:Class="UltimateTimeGadgets.ControlWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:my="clr-namespace:UltimateTimeGadgets"
+        mc:Ignorable="d" ShowInTaskbar="False" WindowStyle="None" AllowsTransparency="True" Background="Transparent" SizeToContent="WidthAndHeight" SizeChanged="Window_SizeChanged" ResizeMode="NoResize" Icon="/UltimateTimeGadgets;component/Resources/UltimateTimeGadgets.ico" Loaded="Window_Loaded">
+
+	<Window.Resources>
+		<Style TargetType="{x:Type Button}" x:Key="closeButtonStyle">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Border 
+						   x:Name="Border"
+						   CornerRadius="3" 
+						   BorderThickness="1"
+						   Background="#80000000"
+						   BorderBrush="LightGray">
+							<ContentPresenter 
+							 Margin="0"
+							 HorizontalAlignment="Center"
+							 VerticalAlignment="Center"
+							 RecognizesAccessKey="True"/>
+						</Border>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsMouseOver" Value="true">
+								<Setter TargetName="Border" Property="Background" Value="#FFE00000" />
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style TargetType="{x:Type Button}" x:Key="controlButtonStyle">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Border 
+						   x:Name="Border"
+						   CornerRadius="3" 
+						   BorderThickness="1"
+						   Background="#80000000"
+						   BorderBrush="LightGray">
+							<ContentPresenter 
+							 Margin="0"
+							 HorizontalAlignment="Center"
+							 VerticalAlignment="Center"
+							 RecognizesAccessKey="True"/>
+						</Border>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsMouseOver" Value="true">
+								<Setter TargetName="Border" Property="Background" Value="#FF50A0FF" />
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Window.Resources>
+	
+	<Grid Background="#01FFFFFF" MouseMove="Grid_MouseMove" MouseLeave="Grid_MouseLeave" MouseLeftButtonDown="Grid_MouseLeftButtonDown" Name="mainGrid" MouseLeftButtonUp="mainGrid_MouseLeftButtonUp">
+		<my:TimeControl Height="100" HorizontalAlignment="Left" x:Name="timeControl" VerticalAlignment="Top" Width="100" />
+
+		<Button VerticalAlignment="Top" Height="19" Name="closeButton" Style="{StaticResource closeButtonStyle}" Padding="0" Margin="0,0,0,0" HorizontalAlignment="Right" Width="19" Click="closeButton_Click">
+			<Border HorizontalAlignment="Center" VerticalAlignment="Center" >
+				<Image Source="/UltimateTimeGadgets;component/Resources/buttons/gadget_close.png" Stretch="None" SnapsToDevicePixels="True" />
+			</Border>
+		</Button>
+
+		<Button VerticalAlignment="Top" Height="19" Name="largerButton" Style="{StaticResource controlButtonStyle}" Padding="0" Margin="0,19,0,0" HorizontalAlignment="Right" Width="19" Click="largerButton_Click">
+			<Border HorizontalAlignment="Center" VerticalAlignment="Center" >
+				<Image Source="/UltimateTimeGadgets;component/Resources/buttons/gadget_larger.png" Stretch="None" SnapsToDevicePixels="True" />
+			</Border>
+		</Button>
+
+		<Button VerticalAlignment="Top" Height="19" Name="smallerButton" Style="{StaticResource controlButtonStyle}" Padding="0" Margin="0,38,0,0" HorizontalAlignment="Right" Width="19" Click="smallerButton_Click">
+			<Border HorizontalAlignment="Center" VerticalAlignment="Center" >
+				<Image Source="/UltimateTimeGadgets;component/Resources/buttons/gadget_smaller.png" Stretch="None" SnapsToDevicePixels="True" />
+			</Border>
+		</Button>
+
+		<Button VerticalAlignment="Top" Height="19" Name="settingsButton" Style="{StaticResource controlButtonStyle}" Padding="0" Margin="0,57,0,0" HorizontalAlignment="Right" Width="19" Click="settingsButton_Click">
+			<Border HorizontalAlignment="Center" VerticalAlignment="Center" >
+				<Image Source="/UltimateTimeGadgets;component/Resources/buttons/gadget_settings.png" Stretch="None" SnapsToDevicePixels="True" />
+			</Border>
+		</Button>
+
+	</Grid>
+</Window>

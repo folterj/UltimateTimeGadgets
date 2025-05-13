@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4FCB4D2A-7802-4C4A-8C55-DB371BA3EE73}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UltimateTimeGadgets</RootNamespace>
+    <AssemblyName>UltimateTimeGadgets</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>24</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>UltimateTimeGadgets.App</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\UltimateTimeGadgets.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>B706CBA3FE848A0FCC14FD0B4241B67FF1416844</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestTimestampUrl>http://timestamp.comodoca.com/authenticode</ManifestTimestampUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnalogClockSettingsWindow.xaml.cs">
+      <DependentUpon>AnalogClockSettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ColorStyle.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="ControlSettings.cs" />
+    <Compile Include="ControlSettingsList.cs" />
+    <Compile Include="ControlType.cs" />
+    <Compile Include="ControlWindow.xaml.cs">
+      <DependentUpon>ControlWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BeatClockControl.xaml.cs">
+      <DependentUpon>BeatClockControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BeatTimeFormatter.cs" />
+    <Compile Include="BeatClockSettingsWindow.xaml.cs">
+      <DependentUpon>BeatClockSettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DaylightdialControl.xaml.cs">
+      <DependentUpon>DaylightdialControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DaylightVisControl.xaml.cs">
+      <DependentUpon>DaylightVisControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DayPartControl.xaml.cs">
+      <DependentUpon>DayPartControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralSettingsWindow.xaml.cs">
+      <DependentUpon>GeneralSettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsObserver.cs" />
+    <Compile Include="Sun.cs" />
+    <Compile Include="TimeZoneDispSettingsWindow.xaml.cs">
+      <DependentUpon>TimeZoneDispSettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TimeAdjustmentSettingsWindow.xaml.cs">
+      <DependentUpon>TimeAdjustmentSettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TimeAdjustmentControl.xaml.cs">
+      <DependentUpon>TimeAdjustmentControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TimeZoneDispControl.xaml.cs">
+      <DependentUpon>TimeZoneDispControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SeasonFormatter.cs" />
+    <Compile Include="SeasonsControl.xaml.cs">
+      <DependentUpon>SeasonsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsWindow.cs" />
+    <Compile Include="SundialControl.xaml.cs">
+      <DependentUpon>SundialControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SeasonVisSettingsWindow.xaml.cs">
+      <DependentUpon>SeasonVisSettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SeasonVisControl.xaml.cs">
+      <DependentUpon>SeasonVisControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SunRiseSetSettingsWindow.xaml.cs">
+      <DependentUpon>SunRiseSetSettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DateSettingsWindow.xaml.cs">
+      <DependentUpon>DateSettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DigitalClockSettingsWindow.xaml.cs">
+      <DependentUpon>DigitalClockSettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MoonSettingsWindow.xaml.cs">
+      <DependentUpon>MoonSettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Country.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="LocationStore.cs" />
+    <Compile Include="LonLatFormatter.cs" />
+    <Compile Include="LonLatControl.xaml.cs">
+      <DependentUpon>LonLatControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TimeControl.cs" />
+    <Compile Include="Timezone.cs" />
+    <Compile Include="LocationWindow.xaml.cs">
+      <DependentUpon>LocationWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AnalogClockControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AnalogClockSettingsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="BeatClockControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="BeatClockSettingsWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DaylightdialControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DaylightVisControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DayPartControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GeneralSettingsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TimeZoneDispSettingsWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TimeAdjustmentSettingsWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TimeAdjustmentControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TimeZoneDispControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SeasonsControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SundialControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SeasonVisSettingsWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SeasonVisControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SunRiseSetSettingsWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DateSettingsWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DigitalClockSettingsWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MoonSettingsWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LonLatControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TimeZoneMapControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SunRiseSetControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="EarthVisControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TimeZoneControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MoonVisControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DateControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DigitalClockControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GalleryWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="AnalogClockControl.xaml.cs">
+      <DependentUpon>AnalogClockControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TimeZoneMapControl.xaml.cs">
+      <DependentUpon>TimeZoneMapControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SunRiseSetControl.xaml.cs">
+      <DependentUpon>SunRiseSetControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EarthVisControl.xaml.cs">
+      <DependentUpon>EarthVisControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TimeZoneFormatter.cs" />
+    <Compile Include="TimeZoneControl.xaml.cs">
+      <DependentUpon>TimeZoneControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MoonVisControl.xaml.cs">
+      <DependentUpon>MoonVisControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DateControl.xaml.cs">
+      <DependentUpon>DateControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DateTimeFormatter.cs" />
+    <Compile Include="DateTimeModel.cs" />
+    <Compile Include="DigitalClockControl.xaml.cs">
+      <DependentUpon>DigitalClockControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GalleryWindow.xaml.cs">
+      <DependentUpon>GalleryWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="LocationWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <Resource Include="Resources\countries.csv" />
+    <Resource Include="Resources\locations.csv" />
+    <Resource Include="Resources\timezones.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\earth\earth_day.png" />
+    <Resource Include="Resources\earth\earth_night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\moon\moon00.png" />
+    <Resource Include="Resources\moon\moon01.png" />
+    <Resource Include="Resources\moon\moon02.png" />
+    <Resource Include="Resources\moon\moon03.png" />
+    <Resource Include="Resources\moon\moon04.png" />
+    <Resource Include="Resources\moon\moon05.png" />
+    <Resource Include="Resources\moon\moon06.png" />
+    <Resource Include="Resources\moon\moon07.png" />
+    <Resource Include="Resources\moon\moon08.png" />
+    <Resource Include="Resources\moon\moon09.png" />
+    <Resource Include="Resources\moon\moon10.png" />
+    <Resource Include="Resources\moon\moon11.png" />
+    <Resource Include="Resources\moon\moon12.png" />
+    <Resource Include="Resources\moon\moon13.png" />
+    <Resource Include="Resources\moon\moon14.png" />
+    <Resource Include="Resources\moon\moon15.png" />
+    <Resource Include="Resources\moon\moon16.png" />
+    <Resource Include="Resources\moon\moon17.png" />
+    <Resource Include="Resources\moon\moon18.png" />
+    <Resource Include="Resources\moon\moon19.png" />
+    <Resource Include="Resources\moon\moon20.png" />
+    <Resource Include="Resources\moon\moon21.png" />
+    <Resource Include="Resources\moon\moon22.png" />
+    <Resource Include="Resources\moon\moon23.png" />
+    <Resource Include="Resources\moon\moon24.png" />
+    <Resource Include="Resources\moon\moon25.png" />
+    <Resource Include="Resources\moon\moon26.png" />
+    <Resource Include="Resources\moon\moon27.png" />
+    <Resource Include="Resources\moon\moon28.png" />
+    <Resource Include="Resources\moon\moon29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\UltimateTimeGadgets.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\buttons\gadget_close.png" />
+    <Resource Include="Resources\buttons\gadget_larger.png" />
+    <Resource Include="Resources\buttons\gadget_settings.png" />
+    <Resource Include="Resources\buttons\gadget_smaller.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\timezones\timezonesmap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UltimateTimeGadgetsTray.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sundail128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\sundialimage\sundial_north.png" />
+    <Resource Include="Resources\sundialimage\sundial_south.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\clockface\face1_dark.png" />
+    <Resource Include="Resources\clockface\face1_light.png" />
+    <Resource Include="Resources\clockface\face1_opaque.png" />
+    <Resource Include="Resources\clockface\face2_dark.png" />
+    <Resource Include="Resources\clockface\face2_light.png" />
+    <Resource Include="Resources\clockface\face2_opaque.png" />
+    <Resource Include="Resources\clockface\face3_dark.png" />
+    <Resource Include="Resources\clockface\face3_light.png" />
+    <Resource Include="Resources\clockface\face3_opaque.png" />
+    <Resource Include="Resources\clockface\face4_dark.png" />
+    <Resource Include="Resources\clockface\face4_light.png" />
+    <Resource Include="Resources\clockface\face4_opaque.png" />
+    <Resource Include="Resources\clockface\face5_dark.png" />
+    <Resource Include="Resources\clockface\face5_light.png" />
+    <Resource Include="Resources\clockface\face5_opaque.png" />
+    <Resource Include="Resources\clockface\face6_dark.png" />
+    <Resource Include="Resources\clockface\face6_light.png" />
+    <Resource Include="Resources\clockface\face6_opaque.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\seasons\seasons1_dark.png" />
+    <Resource Include="Resources\seasons\seasons1_light.png" />
+    <Resource Include="Resources\seasons\seasons1_opaque.png" />
+    <Resource Include="Resources\seasons\seasons2_dark.png" />
+    <Resource Include="Resources\seasons\seasons2_light.png" />
+    <Resource Include="Resources\seasons\seasons2_opaque.png" />
+    <Resource Include="Resources\seasons\seasons3.png" />
+    <Resource Include="Resources\seasons\seasons4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\moontrans\moon00.png" />
+    <Resource Include="Resources\moontrans\moon01.png" />
+    <Resource Include="Resources\moontrans\moon02.png" />
+    <Resource Include="Resources\moontrans\moon03.png" />
+    <Resource Include="Resources\moontrans\moon04.png" />
+    <Resource Include="Resources\moontrans\moon05.png" />
+    <Resource Include="Resources\moontrans\moon06.png" />
+    <Resource Include="Resources\moontrans\moon07.png" />
+    <Resource Include="Resources\moontrans\moon08.png" />
+    <Resource Include="Resources\moontrans\moon09.png" />
+    <Resource Include="Resources\moontrans\moon10.png" />
+    <Resource Include="Resources\moontrans\moon11.png" />
+    <Resource Include="Resources\moontrans\moon12.png" />
+    <Resource Include="Resources\moontrans\moon13.png" />
+    <Resource Include="Resources\moontrans\moon14.png" />
+    <Resource Include="Resources\moontrans\moon15.png" />
+    <Resource Include="Resources\moontrans\moon16.png" />
+    <Resource Include="Resources\moontrans\moon17.png" />
+    <Resource Include="Resources\moontrans\moon18.png" />
+    <Resource Include="Resources\moontrans\moon19.png" />
+    <Resource Include="Resources\moontrans\moon20.png" />
+    <Resource Include="Resources\moontrans\moon21.png" />
+    <Resource Include="Resources\moontrans\moon22.png" />
+    <Resource Include="Resources\moontrans\moon23.png" />
+    <Resource Include="Resources\moontrans\moon24.png" />
+    <Resource Include="Resources\moontrans\moon25.png" />
+    <Resource Include="Resources\moontrans\moon26.png" />
+    <Resource Include="Resources\moontrans\moon27.png" />
+    <Resource Include="Resources\moontrans\moon28.png" />
+    <Resource Include="Resources\moontrans\moon29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\earth\earth_night_trans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\lightdial\sunlight.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

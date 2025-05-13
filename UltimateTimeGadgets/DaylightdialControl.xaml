@@ -1,0 +1,14 @@
+﻿<my:TimeControl x:Class="UltimateTimeGadgets.DaylightdialControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:my="clr-namespace:UltimateTimeGadgets" 
+             mc:Ignorable="d" Width="100" Height="100">
+    <Grid SizeChanged="Grid_SizeChanged">
+		<Image Name="backFace" Stretch="Fill" RenderOptions.BitmapScalingMode="HighQuality" Source="/UltimateTimeGadgets;component/Resources/lightdial/sunlight.png" />
+		<Image Name="MainImage" Stretch="Fill" RenderOptions.BitmapScalingMode="HighQuality" />
+		<Line Name="hand" Stroke="#BF000000" X1="50" X2="50" Y1="50" Y2="0" StrokeThickness="4" />
+		<Ellipse Name="axle" Fill="#FF000000" Width="5" Height="5" />
+	</Grid>
+</my:TimeControl>

@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateTimeGadgets", "UltimateTimeGadgets\UltimateTimeGadgets.csproj", "{4FCB4D2A-7802-4C4A-8C55-DB371BA3EE73}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UltimateTimeGadgetsSetup", "UltimateTimeGadgetsSetup\UltimateTimeGadgetsSetup.vdproj", "{ABFDCA61-655F-4926-B907-3331FF27A963}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FCB4D2A-7802-4C4A-8C55-DB371BA3EE73}.Debug|x86.ActiveCfg = Debug|x86
+		{4FCB4D2A-7802-4C4A-8C55-DB371BA3EE73}.Debug|x86.Build.0 = Debug|x86
+		{4FCB4D2A-7802-4C4A-8C55-DB371BA3EE73}.Release|x86.ActiveCfg = Release|x86
+		{4FCB4D2A-7802-4C4A-8C55-DB371BA3EE73}.Release|x86.Build.0 = Release|x86
+		{ABFDCA61-655F-4926-B907-3331FF27A963}.Debug|x86.ActiveCfg = Debug
+		{ABFDCA61-655F-4926-B907-3331FF27A963}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

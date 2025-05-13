@@ -1,0 +1,415 @@
+CI,Africa/Abidjan,0,0,0,Greenwich Standard Time
+GH,Africa/Accra,0,0,0,Greenwich Standard Time
+ET,Africa/Addis_Ababa,3,3,3,E. Africa Standard Time
+DZ,Africa/Algiers,1,1,1,W. Central Africa Standard Time
+ER,Africa/Asmara,3,3,3,E. Africa Standard Time
+ML,Africa/Bamako,0,0,0,Greenwich Standard Time
+CF,Africa/Bangui,1,1,1,W. Central Africa Standard Time
+GM,Africa/Banjul,0,0,0,Greenwich Standard Time
+GW,Africa/Bissau,0,0,0,Greenwich Standard Time
+MW,Africa/Blantyre,2,2,2,South Africa Standard Time
+CG,Africa/Brazzaville,1,1,1,W. Central Africa Standard Time
+BI,Africa/Bujumbura,2,2,2,South Africa Standard Time
+EG,Africa/Cairo,2,2,2,Egypt Standard Time
+MA,Africa/Casablanca,0,1,0,Morocco Standard Time
+ES,Africa/Ceuta,1,2,1,Romance Standard Time
+GN,Africa/Conakry,0,0,0,Greenwich Standard Time
+SN,Africa/Dakar,0,0,0,Greenwich Standard Time
+TZ,Africa/Dar_es_Salaam,3,3,3,E. Africa Standard Time
+DJ,Africa/Djibouti,3,3,3,E. Africa Standard Time
+CM,Africa/Douala,1,1,1,W. Central Africa Standard Time
+EH,Africa/El_Aaiun,0,0,0,Greenwich Standard Time
+SL,Africa/Freetown,0,0,0,Greenwich Standard Time
+BW,Africa/Gaborone,2,2,2,South Africa Standard Time
+ZW,Africa/Harare,2,2,2,South Africa Standard Time
+ZA,Africa/Johannesburg,2,2,2,South Africa Standard Time
+SS,Africa/Juba,3,3,3,E. Africa Standard Time
+UG,Africa/Kampala,3,3,3,E. Africa Standard Time
+SD,Africa/Khartoum,3,3,3,E. Africa Standard Time
+RW,Africa/Kigali,2,2,2,South Africa Standard Time
+CD,Africa/Kinshasa,1,1,1,W. Central Africa Standard Time
+NG,Africa/Lagos,1,1,1,W. Central Africa Standard Time
+GA,Africa/Libreville,1,1,1,W. Central Africa Standard Time
+TG,Africa/Lome,0,0,0,Greenwich Standard Time
+AO,Africa/Luanda,1,1,1,W. Central Africa Standard Time
+CD,Africa/Lubumbashi,2,2,2,South Africa Standard Time
+ZM,Africa/Lusaka,2,2,2,South Africa Standard Time
+GQ,Africa/Malabo,1,1,1,W. Central Africa Standard Time
+MZ,Africa/Maputo,2,2,2,South Africa Standard Time
+LS,Africa/Maseru,2,2,2,South Africa Standard Time
+SZ,Africa/Mbabane,2,2,2,South Africa Standard Time
+SO,Africa/Mogadishu,3,3,3,E. Africa Standard Time
+LR,Africa/Monrovia,0,0,0,Greenwich Standard Time
+KE,Africa/Nairobi,3,3,3,E. Africa Standard Time
+TD,Africa/Ndjamena,1,1,1,W. Central Africa Standard Time
+NE,Africa/Niamey,1,1,1,W. Central Africa Standard Time
+MR,Africa/Nouakchott,0,0,0,Greenwich Standard Time
+BF,Africa/Ouagadougou,0,0,0,Greenwich Standard Time
+BJ,Africa/Porto-Novo,1,1,1,W. Central Africa Standard Time
+ST,Africa/Sao_Tome,0,0,0,Greenwich Standard Time
+LY,Africa/Tripoli,1,2,1,Romance Standard Time
+TN,Africa/Tunis,1,1,1,W. Central Africa Standard Time
+NA,Africa/Windhoek,2,1,1,Namibia Standard Time
+US,America/Adak,-10,-9,-10,Hawaiian Standard Time
+US,America/Anchorage,-9,-8,-9,Alaskan Standard Time
+AI,America/Anguilla,-4,-4,-4,Atlantic Standard Time
+AG,America/Antigua,-4,-4,-4,Atlantic Standard Time
+BR,America/Araguaina,-2,-3,-3,E. South America Standard Time
+AR,America/Argentina/Buenos_Aires,-3,-3,-3,Argentina Standard Time
+AR,America/Argentina/Catamarca,-3,-3,-3,Argentina Standard Time
+AR,America/Argentina/Cordoba,-3,-3,-3,Argentina Standard Time
+AR,America/Argentina/Jujuy,-3,-3,-3,Argentina Standard Time
+AR,America/Argentina/La_Rioja,-3,-3,-3,Argentina Standard Time
+AR,America/Argentina/Mendoza,-3,-3,-3,Argentina Standard Time
+AR,America/Argentina/Rio_Gallegos,-3,-3,-3,Argentina Standard Time
+AR,America/Argentina/Salta,-3,-3,-3,Argentina Standard Time
+AR,America/Argentina/San_Juan,-3,-3,-3,Argentina Standard Time
+AR,America/Argentina/San_Luis,-3,-3,-4,Argentina Standard Time
+AR,America/Argentina/Tucuman,-3,-3,-3,Argentina Standard Time
+AR,America/Argentina/Ushuaia,-3,-3,-3,Argentina Standard Time
+AW,America/Aruba,-4,-4,-4,Atlantic Standard Time
+PY,America/Asuncion,-3,-4,-4,Paraguay Standard Time
+CA,America/Atikokan,-5,-5,-5,Eastern Standard Time
+BR,America/Bahia,-3,-3,-3,Bahia Standard Time
+MX,America/Bahia_Banderas,-6,-5,-6,Central Standard Time (Mexico)
+BB,America/Barbados,-4,-4,-4,Atlantic Standard Time
+BR,America/Belem,-3,-3,-3,E. South America Standard Time
+BZ,America/Belize,-6,-6,-6,Central America Standard Time
+CA,America/Blanc-Sablon,-4,-4,-4,Atlantic Standard Time
+BR,America/Boa_Vista,-4,-4,-4,Atlantic Standard Time
+CO,America/Bogota,-5,-5,-5,SA Pacific Standard Time
+US,America/Boise,-7,-6,-7,US Mountain Standard Time
+CA,America/Cambridge_Bay,-7,-6,-7,US Mountain Standard Time
+BR,America/Campo_Grande,-3,-4,-4,Central Brazilian Standard Time
+MX,America/Cancun,-6,-5,-6,Central Standard Time (Mexico)
+VE,America/Caracas,-4.5,-4.5,-4.5,Venezuela Standard Time
+GF,America/Cayenne,-3,-3,-3,SA Eastern Standard Time
+KY,America/Cayman,-5,-5,-5,Eastern Standard Time
+US,America/Chicago,-6,-5,-6,Central America Standard Time
+MX,America/Chihuahua,-7,-6,-7,Mountain Standard Time (Mexico)
+CR,America/Costa_Rica,-6,-6,-6,Central America Standard Time
+CA,America/Creston,-7,-7,-7,Mountain Standard Time
+BR,America/Cuiaba,-3,-4,-4,Central Brazilian Standard Time
+CW,America/Curacao,-4,-4,-4,Atlantic Standard Time
+GL,America/Danmarkshavn,0,0,0,Greenwich Standard Time
+CA,America/Dawson,-8,-7,-8,Pacific Standard Time
+CA,America/Dawson_Creek,-7,-7,-7,Mountain Standard Time
+US,America/Denver,-7,-6,-7,US Mountain Standard Time
+US,America/Detroit,-5,-4,-5,US Eastern Standard Time
+DM,America/Dominica,-4,-4,-4,Atlantic Standard Time
+CA,America/Edmonton,-7,-6,-7,US Mountain Standard Time
+BR,America/Eirunepe,-4,-4,-4,Atlantic Standard Time
+SV,America/El_Salvador,-6,-6,-6,Central America Standard Time
+BR,America/Fortaleza,-3,-3,-3,E. South America Standard Time
+CA,America/Glace_Bay,-4,-3,-4,Atlantic Standard Time
+GL,America/Godthab,-3,-2,-3,Greenland Standard Time
+CA,America/Goose_Bay,-4,-3,-4,Atlantic Standard Time
+TC,America/Grand_Turk,-5,-4,-5,Eastern Standard Time
+GD,America/Grenada,-4,-4,-4,Atlantic Standard Time
+GP,America/Guadeloupe,-4,-4,-4,Atlantic Standard Time
+GT,America/Guatemala,-6,-6,-6,Central America Standard Time
+EC,America/Guayaquil,-5,-5,-5,SA Pacific Standard Time
+GY,America/Guyana,-4,-4,-4,SA Western Standard Time
+CA,America/Halifax,-4,-3,-4,Atlantic Standard Time
+CU,America/Havana,-5,-4,-5,Eastern Standard Time
+MX,America/Hermosillo,-7,-7,-7,Mountain Standard Time (Mexico)
+US,America/Indiana/Indianapolis,-5,-4,-5,US Eastern Standard Time
+US,America/Indiana/Knox,-6,-5,-6,Central Standard Time
+US,America/Indiana/Marengo,-5,-4,-5,US Eastern Standard Time
+US,America/Indiana/Petersburg,-5,-4,-5,US Eastern Standard Time
+US,America/Indiana/Tell_City,-6,-5,-6,Central Standard Time
+US,America/Indiana/Vevay,-5,-4,-5,US Eastern Standard Time
+US,America/Indiana/Vincennes,-5,-4,-5,US Eastern Standard Time
+US,America/Indiana/Winamac,-5,-4,-5,US Eastern Standard Time
+CA,America/Inuvik,-7,-6,-7,Mountain Standard Time
+CA,America/Iqaluit,-5,-4,-5,Eastern Standard Time
+JM,America/Jamaica,-5,-5,-5,Eastern Standard Time
+US,America/Juneau,-9,-8,-9,Alaskan Standard Time
+US,America/Kentucky/Louisville,-5,-4,-5,US Eastern Standard Time
+US,America/Kentucky/Monticello,-5,-4,-5,US Eastern Standard Time
+BQ,America/Kralendijk,-4,-4,-4,SA Western Standard Time
+BO,America/La_Paz,-4,-4,-4,SA Western Standard Time
+PE,America/Lima,-5,-5,-5,SA Pacific Standard Time
+US,America/Los_Angeles,-8,-7,-8,Pacific Standard Time
+SX,America/Lower_Princes,-4,-4,-4,Atlantic Standard Time
+BR,America/Maceio,-3,-3,-3,E. South America Standard Time
+NI,America/Managua,-6,-6,-6,Central America Standard Time
+BR,America/Manaus,-4,-4,-4,SA Western Standard Time
+MF,America/Marigot,-4,-4,-4,SA Western Standard Time
+MQ,America/Martinique,-4,-4,-4,SA Western Standard Time
+MX,America/Matamoros,-6,-5,-6,Central Standard Time (Mexico)
+MX,America/Mazatlan,-7,-6,-7,Mountain Standard Time (Mexico)
+US,America/Menominee,-6,-5,-6,Central Standard Time
+MX,America/Merida,-6,-5,-6,Central Standard Time (Mexico)
+US,America/Metlakatla,-8,-8,-8,Pacific Standard Time
+MX,America/Mexico_City,-6,-5,-6,Central Standard Time (Mexico)
+PM,America/Miquelon,-3,-2,-3,Greenland Standard Time
+CA,America/Moncton,-4,-3,-4,Atlantic Standard Time
+MX,America/Monterrey,-6,-5,-6,Central Standard Time (Mexico)
+UY,America/Montevideo,-2,-3,-3,Montevideo Standard Time
+CA,America/Montreal,-5,-4,-5,Eastern Standard Time
+MS,America/Montserrat,-4,-4,-4,SA Western Standard Time
+BS,America/Nassau,-5,-4,-5,Eastern Standard Time
+US,America/New_York,-5,-4,-5,Eastern Standard Time
+CA,America/Nipigon,-5,-4,-5,Eastern Standard Time
+US,America/Nome,-9,-8,-9,Alaskan Standard Time
+BR,America/Noronha,-2,-2,-2,Mid-Atlantic Standard Time
+US,America/North_Dakota/Beulah,-6,-5,-6,Central Standard Time
+US,America/North_Dakota/Center,-6,-5,-6,Central Standard Time
+US,America/North_Dakota/New_Salem,-6,-5,-6,Central Standard Time
+MX,America/Ojinaga,-7,-6,-7,Mountain Standard Time (Mexico)
+PA,America/Panama,-5,-5,-5,SA Pacific Standard Time
+CA,America/Pangnirtung,-5,-4,-5,Eastern Standard Time
+SR,America/Paramaribo,-3,-3,-3,SA Eastern Standard Time
+US,America/Phoenix,-7,-7,-7,Central Standard Time
+HT,America/Port-au-Prince,-5,-5,-5,Eastern Standard Time
+TT,America/Port_of_Spain,-4,-4,-4,SA Western Standard Time
+BR,America/Porto_Velho,-4,-4,-4,SA Western Standard Time
+PR,America/Puerto_Rico,-4,-4,-4,SA Western Standard Time
+CA,America/Rainy_River,-6,-5,-6,Central Standard Time
+CA,America/Rankin_Inlet,-6,-5,-6,Central Standard Time
+BR,America/Recife,-3,-3,-3,E. South America Standard Time
+CA,America/Regina,-6,-6,-6,Canada Central Standard Time
+CA,America/Resolute,-6,-5,-6,Central Standard Time
+BR,America/Rio_Branco,-4,-4,-4,Central Brazilian Standard Time
+MX,America/Santa_Isabel,-8,-7,-8,Pacific Standard Time (Mexico)
+BR,America/Santarem,-3,-3,-3,E. South America Standard Time
+CL,America/Santiago,-3,-4,-4,Pacific SA Standard Time
+DO,America/Santo_Domingo,-4,-4,-4,SA Western Standard Time
+BR,America/Sao_Paulo,-2,-3,-3,E. South America Standard Time
+GL,America/Scoresbysund,-1,0,-1,Azores Standard Time
+US,America/Shiprock,-7,-6,-7,Mountain Standard Time
+US,America/Sitka,-9,-8,-9,Alaskan Standard Time
+BL,America/St_Barthelemy,-4,-4,-4,SA Western Standard Time
+CA,America/St_Johns,-3.5,-2.5,-3.5,Newfoundland Standard Time
+KN,America/St_Kitts,-4,-4,-4,SA Western Standard Time
+LC,America/St_Lucia,-4,-4,-4,SA Western Standard Time
+VI,America/St_Thomas,-4,-4,-4,SA Western Standard Time
+VC,America/St_Vincent,-4,-4,-4,SA Western Standard Time
+CA,America/Swift_Current,-6,-6,-6,Canada Central Standard Time
+HN,America/Tegucigalpa,-6,-6,-6,Central America Standard Time
+GL,America/Thule,-4,-3,-4,Atlantic Standard Time
+CA,America/Thunder_Bay,-5,-4,-5,Eastern Standard Time
+MX,America/Tijuana,-8,-7,-8,Pacific Standard Time (Mexico)
+CA,America/Toronto,-5,-4,-5,Eastern Standard Time
+VG,America/Tortola,-4,-4,-4,SA Western Standard Time
+CA,America/Vancouver,-8,-7,-8,Pacific Standard Time
+CA,America/Whitehorse,-8,-7,-8,Pacific Standard Time
+CA,America/Winnipeg,-6,-5,-6,Central Standard Time
+US,America/Yakutat,-9,-8,-9,Alaskan Standard Time
+CA,America/Yellowknife,-7,-6,-7,Mountain Standard Time
+AQ,Antarctica/Casey,8,8,8,W. Australia Standard Time
+AQ,Antarctica/Davis,7,7,7,SE Asia Standard Time
+AQ,Antarctica/DumontDUrville,10,10,10,Tasmania Standard Time
+AQ,Antarctica/Macquarie,11,11,11,Central Pacific Standard Time
+AQ,Antarctica/Mawson,5,5,5,West Asia Standard Time
+AQ,Antarctica/McMurdo,13,12,12,New Zealand Standard Time
+AQ,Antarctica/Palmer,-3,-4,-4,Pacific SA Standard Time
+AQ,Antarctica/Rothera,-3,-3,-3,Argentina Standard Time
+AQ,Antarctica/South_Pole,13,12,12,New Zealand Standard Time
+AQ,Antarctica/Syowa,3,3,3,E. Africa Standard Time
+AQ,Antarctica/Vostok,6,6,6,Bangladesh Standard Time
+SJ,Arctic/Longyearbyen,1,2,1,Namibia Standard Time
+YE,Asia/Aden,3,3,3,Arab Standard Time
+KZ,Asia/Almaty,6,6,6,Central Asia Standard Time
+JO,Asia/Amman,3,3,2,Jordan Standard Time
+RU,Asia/Anadyr,12,12,12,Magadan Standard Time
+KZ,Asia/Aqtau,5,5,5,West Asia Standard Time
+KZ,Asia/Aqtobe,5,5,5,West Asia Standard Time
+TM,Asia/Ashgabat,5,5,5,West Asia Standard Time
+IQ,Asia/Baghdad,3,3,3,Arabic Standard Time
+BH,Asia/Bahrain,3,3,3,Arab Standard Time
+AZ,Asia/Baku,4,5,4,Azerbaijan Standard Time
+TH,Asia/Bangkok,7,7,7,SE Asia Standard Time
+LB,Asia/Beirut,2,3,2,Middle East Standard Time
+KG,Asia/Bishkek,6,6,6,Ekaterinburg Standard Time
+BN,Asia/Brunei,8,8,8,Singapore Standard Time
+MN,Asia/Choibalsan,8,8,8,Ulaanbaatar Standard Time
+CN,Asia/Chongqing,8,8,8,China Standard Time
+LK,Asia/Colombo,5.5,5.5,5.5,Sri Lanka Standard Time
+SY,Asia/Damascus,2,3,2,Syria Standard Time
+BD,Asia/Dhaka,6,6,6,Bangladesh Standard Time
+TL,Asia/Dili,9,9,9,North Asia East Standard Time
+AE,Asia/Dubai,4,4,4,Arabian Standard Time
+TJ,Asia/Dushanbe,5,5,5,West Asia Standard Time
+PS,Asia/Gaza,2,2,2,Israel Standard Time
+CN,Asia/Harbin,8,8,8,China Standard Time
+PS,Asia/Hebron,2,2,2,Israel Standard Time
+VN,Asia/Ho_Chi_Minh,7,7,7,SE Asia Standard Time
+HK,Asia/Hong_Kong,8,8,8,China Standard Time
+MN,Asia/Hovd,7,7,7,N. Central Asia Standard Time
+RU,Asia/Irkutsk,9,9,9,North Asia East Standard Time
+ID,Asia/Jakarta,7,7,7,SE Asia Standard Time
+ID,Asia/Jayapura,9,9,9,North Asia East Standard Time
+IL,Asia/Jerusalem,2,3,2,Israel Standard Time
+AF,Asia/Kabul,4.5,4.5,4.5,Afghanistan Standard Time
+RU,Asia/Kamchatka,12,12,12,Kamchatka Standard Time
+PK,Asia/Karachi,5,5,5,Pakistan Standard Time
+CN,Asia/Kashgar,8,8,8,China Standard Time
+NP,Asia/Kathmandu,5.75,5.75,5.75,Nepal Standard Time
+IN,Asia/Kolkata,5.5,5.5,5.5,India Standard Time
+RU,Asia/Krasnoyarsk,8,8,8,North Asia Standard Time
+MY,Asia/Kuala_Lumpur,8,8,8,Singapore Standard Time
+MY,Asia/Kuching,8,8,8,Singapore Standard Time
+KW,Asia/Kuwait,3,3,3,Arab Standard Time
+MO,Asia/Macau,8,8,8,China Standard Time
+RU,Asia/Magadan,12,12,12,Magadan Standard Time
+ID,Asia/Makassar,8,8,8,Singapore Standard Time
+PH,Asia/Manila,8,8,8,Singapore Standard Time
+OM,Asia/Muscat,4,4,4,Arabian Standard Time
+CY,Asia/Nicosia,2,3,2,Turkey Standard Time
+RU,Asia/Novokuznetsk,7,7,7,N. Central Asia Standard Time
+RU,Asia/Novosibirsk,7,7,7,N. Central Asia Standard Time
+RU,Asia/Omsk,7,7,7,N. Central Asia Standard Time
+KZ,Asia/Oral,5,5,5,West Asia Standard Time
+KH,Asia/Phnom_Penh,7,7,7,SE Asia Standard Time
+ID,Asia/Pontianak,7,7,7,SE Asia Standard Time
+KP,Asia/Pyongyang,9,9,9,Korea Standard Time
+QA,Asia/Qatar,3,3,3,Arab Standard Time
+KZ,Asia/Qyzylorda,6,6,6,Central Asia Standard Time
+MM,Asia/Rangoon,6.5,6.5,6.5,Myanmar Standard Time
+SA,Asia/Riyadh,3,3,3,Arab Standard Time
+RU,Asia/Sakhalin,11,11,11,Vladivostok Standard Time
+UZ,Asia/Samarkand,5,5,5,West Asia Standard Time
+KR,Asia/Seoul,9,9,9,Korea Standard Time
+CN,Asia/Shanghai,8,8,8,China Standard Time
+SG,Asia/Singapore,8,8,8,Singapore Standard Time
+TW,Asia/Taipei,8,8,8,Taipei Standard Time
+UZ,Asia/Tashkent,5,5,5,West Asia Standard Time
+GE,Asia/Tbilisi,4,4,4,Georgian Standard Time
+IR,Asia/Tehran,3.5,4.5,3.5,Iran Standard Time
+BT,Asia/Thimphu,6,6,6,Central Asia Standard Time
+JP,Asia/Tokyo,9,9,9,Tokyo Standard Time
+MN,Asia/Ulaanbaatar,8,8,8,Ulaanbaatar Standard Time
+CN,Asia/Urumqi,8,8,8,China Standard Time
+LA,Asia/Vientiane,7,7,7,SE Asia Standard Time
+RU,Asia/Vladivostok,11,11,11,Vladivostok Standard Time
+RU,Asia/Yakutsk,10,10,10,Yakutsk Standard Time
+RU,Asia/Yekaterinburg,6,6,6,Ekaterinburg Standard Time
+AM,Asia/Yerevan,4,4,4,Caucasus Standard Time
+PT,Atlantic/Azores,-1,0,-1,Azores Standard Time
+BM,Atlantic/Bermuda,-4,-3,-4,Atlantic Standard Time
+ES,Atlantic/Canary,0,1,0,Greenwich Standard Time
+CV,Atlantic/Cape_Verde,-1,-1,-1,Cape Verde Standard Time
+FO,Atlantic/Faroe,0,1,0,Greenwich Standard Time
+PT,Atlantic/Madeira,0,1,0,Greenwich Standard Time
+IS,Atlantic/Reykjavik,0,0,0,Greenwich Standard Time
+GS,Atlantic/South_Georgia,-2,-2,-2,Mid-Atlantic Standard Time
+SH,Atlantic/St_Helena,0,0,0,Greenwich Standard Time
+FK,Atlantic/Stanley,-3,-3,-3,SA Eastern Standard Time
+AU,Australia/Adelaide,10.5,9.5,9.5,Cen. Australia Standard Time
+AU,Australia/Brisbane,10,10,10,E. Australia Standard Time
+AU,Australia/Broken_Hill,10.5,9.5,9.5,Cen. Australia Standard Time
+AU,Australia/Currie,11,10,10,AUS Eastern Standard Time
+AU,Australia/Darwin,9.5,9.5,9.5,Cen. Australia Standard Time
+AU,Australia/Eucla,8.75,8.75,8.75,W. Australia Standard Time
+AU,Australia/Hobart,11,10,10,Tasmania Standard Time
+AU,Australia/Lindeman,10,10,10,AUS Eastern Standard Time
+AU,Australia/Lord_Howe,11,10.5,10.5,AUS Eastern Standard Time
+AU,Australia/Melbourne,11,10,10,AUS Eastern Standard Time
+AU,Australia/Perth,8,8,8,W. Australia Standard Time
+AU,Australia/Sydney,11,10,10,AUS Eastern Standard Time
+NL,Europe/Amsterdam,1,2,1,W. Europe Standard Time
+AD,Europe/Andorra,1,2,1,Romance Standard Time
+GR,Europe/Athens,2,3,2,GTB Standard Time
+RS,Europe/Belgrade,1,2,1,Central Europe Standard Time
+DE,Europe/Berlin,1,2,1,W. Europe Standard Time
+SK,Europe/Bratislava,1,2,1,Central Europe Standard Time
+BE,Europe/Brussels,1,2,1,Romance Standard Time
+RO,Europe/Bucharest,2,3,2,GTB Standard Time
+HU,Europe/Budapest,1,2,1,Central Europe Standard Time
+MD,Europe/Chisinau,2,3,2,E. Europe Standard Time
+DK,Europe/Copenhagen,1,2,1,Romance Standard Time
+IE,Europe/Dublin,0,1,0,GMT Standard Time
+GI,Europe/Gibraltar,1,2,1,Romance Standard Time
+GG,Europe/Guernsey,0,1,0,GMT Standard Time
+FI,Europe/Helsinki,2,3,2,FLE Standard Time
+IM,Europe/Isle_of_Man,0,1,0,GMT Standard Time
+TR,Europe/Istanbul,2,3,2,Turkey Standard Time
+JE,Europe/Jersey,0,1,0,GMT Standard Time
+RU,Europe/Kaliningrad,3,3,3,Kaliningrad Standard Time
+UA,Europe/Kiev,2,3,2,FLE Standard Time
+PT,Europe/Lisbon,0,1,0,Greenwich Standard Time
+SI,Europe/Ljubljana,1,2,1,Central Europe Standard Time
+GB,Europe/London,0,1,0,GMT Standard Time
+LU,Europe/Luxembourg,1,2,1,Romance Standard Time
+ES,Europe/Madrid,1,2,1,Romance Standard Time
+MT,Europe/Malta,1,2,1,W. Europe Standard Time
+AX,Europe/Mariehamn,2,3,2,FLE Standard Time
+BY,Europe/Minsk,3,3,3,Kaliningrad Standard Time
+MC,Europe/Monaco,1,2,1,Romance Standard Time
+RU,Europe/Moscow,4,4,4,Russian Standard Time
+NO,Europe/Oslo,1,2,1,W. Europe Standard Time
+FR,Europe/Paris,1,2,1,Romance Standard Time
+ME,Europe/Podgorica,1,2,1,Central Europe Standard Time
+CZ,Europe/Prague,1,2,1,Central Europe Standard Time
+LV,Europe/Riga,2,3,2,FLE Standard Time
+IT,Europe/Rome,1,2,1,W. Europe Standard Time
+RU,Europe/Samara,4,4,4,Russian Standard Time
+SM,Europe/San_Marino,1,2,1,W. Europe Standard Time
+BA,Europe/Sarajevo,1,2,1,Central European Standard Time
+UA,Europe/Simferopol,2,3,2,FLE Standard Time
+MK,Europe/Skopje,1,2,1,Central European Standard Time
+BG,Europe/Sofia,2,3,2,FLE Standard Time
+SE,Europe/Stockholm,1,2,1,W. Europe Standard Time
+EE,Europe/Tallinn,2,3,2,FLE Standard Time
+AL,Europe/Tirane,1,2,1,Central European Standard Time
+UA,Europe/Uzhgorod,2,3,2,FLE Standard Time
+LI,Europe/Vaduz,1,2,1,W. Europe Standard Time
+VA,Europe/Vatican,1,2,1,W. Europe Standard Time
+AT,Europe/Vienna,1,2,1,W. Europe Standard Time
+LT,Europe/Vilnius,2,3,2,FLE Standard Time
+RU,Europe/Volgograd,4,4,4,Russian Standard Time
+PL,Europe/Warsaw,1,2,1,Central European Standard Time
+HR,Europe/Zagreb,1,2,1,Central European Standard Time
+UA,Europe/Zaporozhye,2,3,2,FLE Standard Time
+CH,Europe/Zurich,1,2,1,W. Europe Standard Time
+MG,Indian/Antananarivo,3,3,3,E. Africa Standard Time
+IO,Indian/Chagos,6,6,6,Central Asia Standard Time
+CX,Indian/Christmas,7,7,7,SE Asia Standard Time
+CC,Indian/Cocos,6.5,6.5,6.5,Myanmar Standard Time
+KM,Indian/Comoro,3,3,3,E. Africa Standard Time
+TF,Indian/Kerguelen,5,5,5,West Asia Standard Time
+SC,Indian/Mahe,4,4,4,Arabian Standard Time
+MV,Indian/Maldives,5,5,5,West Asia Standard Time
+MU,Indian/Mauritius,4,4,4,Mauritius Standard Time
+YT,Indian/Mayotte,3,3,3,E. Africa Standard Time
+RE,Indian/Reunion,4,4,4,Mauritius Standard Time
+WS,Pacific/Apia,14,13,13,Samoa Standard Time
+NZ,Pacific/Auckland,13,12,12,New Zealand Standard Time
+NZ,Pacific/Chatham,13.75,12.75,12.75,Samoa Standard Time
+FM,Pacific/Chuuk,10,10,10,West Pacific Standard Time
+CL,Pacific/Easter,-5,-6,-6,Central America Standard Time
+VU,Pacific/Efate,11,11,11,Central Pacific Standard Time
+KI,Pacific/Enderbury,13,13,13,Samoa Standard Time
+TK,Pacific/Fakaofo,13,13,13,Samoa Standard Time
+FJ,Pacific/Fiji,13,12,12,Fiji Standard Time
+TV,Pacific/Funafuti,12,12,12,Fiji Standard Time
+EC,Pacific/Galapagos,-6,-6,-6,Central America Standard Time
+PF,Pacific/Gambier,-9,-9,-9,Alaskan Standard Time
+SB,Pacific/Guadalcanal,11,11,11,Central Pacific Standard Time
+GU,Pacific/Guam,10,10,10,West Pacific Standard Time
+US,Pacific/Honolulu,-10,-10,-10,Hawaiian Standard Time
+UM,Pacific/Johnston,-10,-10,-10,Hawaiian Standard Time
+KI,Pacific/Kiritimati,14,14,14,Hawaiian Standard Time
+FM,Pacific/Kosrae,11,11,11,Central Pacific Standard Time
+MH,Pacific/Kwajalein,12,12,12,Fiji Standard Time
+MH,Pacific/Majuro,12,12,12,Fiji Standard Time
+PF,Pacific/Marquesas,-9.5,-9.5,-9.5,Hawaiian Standard Time
+UM,Pacific/Midway,-11,-11,-11,UTC-11
+NR,Pacific/Nauru,12,12,12,Fiji Standard Time
+NU,Pacific/Niue,-11,-11,-11,UTC-11
+NF,Pacific/Norfolk,11.5,11.5,11.5,UTC+12
+NC,Pacific/Noumea,11,11,11,Central Pacific Standard Time
+AS,Pacific/Pago_Pago,-11,-11,-11,UTC-11
+PW,Pacific/Palau,9,9,9,Tokyo Standard Time
+PN,Pacific/Pitcairn,-8,-8,-8,Pacific Standard Time
+FM,Pacific/Pohnpei,11,11,11,Central Pacific Standard Time
+PG,Pacific/Port_Moresby,10,10,10,West Pacific Standard Time
+CK,Pacific/Rarotonga,-10,-10,-10,Hawaiian Standard Time
+MP,Pacific/Saipan,10,10,10,West Pacific Standard Time
+PF,Pacific/Tahiti,-10,-10,-10,Hawaiian Standard Time
+KI,Pacific/Tarawa,12,12,12,Fiji Standard Time
+TO,Pacific/Tongatapu,13,13,13,Tonga Standard Time
+UM,Pacific/Wake,12,12,12,Fiji Standard Time
+WF,Pacific/Wallis,12,12,12,Fiji Standard Time
