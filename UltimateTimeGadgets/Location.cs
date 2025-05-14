@@ -35,6 +35,11 @@ namespace UltimateTimeGadgets
 			this.timeZoneId = timeZoneId;
 		}
 
+		public bool isEmpty()
+		{
+			return (name == "");
+		}
+
 		public Location(string[] parts)
 		{
 			name = parts[0];

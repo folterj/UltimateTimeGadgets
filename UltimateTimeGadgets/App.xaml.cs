@@ -124,7 +124,7 @@ namespace UltimateTimeGadgets
 			{
 				// location not set
 				RegionInfo info = RegionInfo.CurrentRegion;
-				location = locationStore.findCountryLocation(info.EnglishName);
+				location = locationStore.findLocation(info.EnglishName, timeZone);
 				if (location != null)
 				{
 					if (location.name != "")
@@ -138,7 +138,7 @@ namespace UltimateTimeGadgets
 			{
 				location = locationStore.getLocationFromString(locations);
 				datetimeModel.setLocation(location);
-				timeZone = getLocationTimeZone(location);
+				timeZone = locationStore.getLocationTimeZone(location);
 			}
 			else
 			{
@@ -156,18 +156,6 @@ namespace UltimateTimeGadgets
 
 				settings.save();
 			}
-		}
-
-		TimeZoneInfo getLocationTimeZone(Location location)
-		{
-			TimeZoneInfo timeZone = TimeZoneInfo.Local;
-
-			string winTimeZoneId = locationStore.findWinTimeZoneLocation(location);
-			if (winTimeZoneId != "")
-			{
-				timeZone = TimeZoneInfo.FindSystemTimeZoneById(winTimeZoneId);
-			}
-			return timeZone;
 		}
 
 		void createTrayIcon()

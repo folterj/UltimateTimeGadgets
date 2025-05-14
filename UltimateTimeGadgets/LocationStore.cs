@@ -153,29 +153,43 @@ namespace UltimateTimeGadgets
 			return nearestLocation;
 		}
 
-		public Location findCountryLocation(string countryString)
+		public Location findLocation(string regionString, TimeZoneInfo timezoneInfo)
 		{
 			Location bestLocation = new Location();
-			Country countryFound = new Country();
-			bool found = false;
+            Country countryFound = new Country();
+            List<String> capitals = new List<String>();
+            List<Location> candidateLocations = new List<Location>();
+            TimeZoneInfo locationTimeZone;
+            String capital, locationName;
+			double timeZoneOffset;
+            bool found = false;
 
-			// search for exact match
-			foreach (Country country in countries)
+            foreach (Country country in countries)
+            {
+				capital = country.capital;
+				if (capital != "")
+				{
+					capitals.Add(capital.ToLower());
+				}
+            }
+
+            // search for exact country match
+            foreach (Country country in countries)
 			{
-				if (country.name.ToLower() == countryString.ToLower())
+				if (country.name.ToLower() == regionString.ToLower())
 				{
 					countryFound = country;
 					found = true;
 					break;
 				}
-			}
+            }
 
 			if (!found)
 			{
-				// search for contained match
+				// search for contained country match
 				foreach (Country country in countries)
 				{
-					if (country.name.ToLower().Contains(countryString.ToLower()))
+					if (country.name.ToLower().Contains(regionString.ToLower()))
 					{
 						countryFound = country;
 						found = true;
@@ -184,23 +198,51 @@ namespace UltimateTimeGadgets
 				}
 			}
 
-			if (found)
+            if (found)
 			{
-				foreach (Location location in locations)
+				// validate time zone: get time zone from locations
+				timeZoneOffset = timezoneInfo.BaseUtcOffset.TotalHours;
+                foreach (Location location in locations)
 				{
-					if (location.name.ToLower() == countryFound.capital.ToLower() &&
-						location.countryCode == countryFound.countryCode)
+					locationName = location.name.ToLower();
+                    locationTimeZone = getLocationTimeZone(location);
+                    if (locationTimeZone.BaseUtcOffset.TotalHours == timeZoneOffset)
 					{
-						bestLocation = location;
-						break;
+						if (locationName == countryFound.capital.ToLower() &&
+							location.countryCode == countryFound.countryCode)
+						{
+							bestLocation = location;
+							break;
+						}
+						if (capitals.Contains(locationName))
+						{
+							candidateLocations.Add(location);
+						}
 					}
 				}
 			}
 
+			if (bestLocation.isEmpty() && candidateLocations.Count > 0)
+			{
+				bestLocation = candidateLocations[0];
+			}
+
 			return bestLocation;
 		}
-		
-		public string findWinTimeZoneLocation(Location location)
+
+        public TimeZoneInfo getLocationTimeZone(Location location)
+        {
+            TimeZoneInfo timeZone = TimeZoneInfo.Local;
+
+            string winTimeZoneId = findWinTimeZoneLocation(location);
+            if (winTimeZoneId != "")
+            {
+                timeZone = TimeZoneInfo.FindSystemTimeZoneById(winTimeZoneId);
+            }
+            return timeZone;
+        }
+
+        public string findWinTimeZoneLocation(Location location)
 		{
 			string winTimeZoneId = "";
 
